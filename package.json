@@ -8,6 +8,10 @@
   "keywords": ["porkbun", "porkbun-wrapper", "porkbun-client", "wrapper", "api", "porkbun-api-wrapper", "porkbun-api", "https"],
   "author": "@Oxtaly",
   "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Oxtaly/porkbun-wrapper.git"
+  },
   "description": "A simple node.js Porkbun API wrapper with no dependencies to interact with Porkbun's v3 api.",
   "devDependencies": {
     "@types/node": "^22.15.29",
