@@ -1,0 +1,19 @@
+{
+  "name": "porkbun-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["porkbun", "porkbun-wrapper", "porkbun-client", "wrapper", "api", "porkbun-api-wrapper", "porkbun-api", "https"],
+  "author": "@Oxtaly",
+  "license": "GPLv3",
+  "description": "A simple node.js Porkbun API wrapper with no dependencies to interact with Porkbun's v3 api.",
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "dotenv": "^16.5.0"
+  },
+  "engines": {
+    "node": "18"
+  }
+}
