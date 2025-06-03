@@ -10,7 +10,7 @@
   "license": "GPLv3",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Oxtaly/porkbun-wrapper.git"
+    "url": "git+https://github.com/Oxtaly/porkbun-wrapper.git"
   },
   "description": "A simple node.js Porkbun API wrapper with no dependencies to interact with Porkbun's v3 api.",
   "devDependencies": {
@@ -18,6 +18,6 @@
     "dotenv": "^16.5.0"
   },
   "engines": {
-    "node": "18"
+    "node": ">=18"
   }
 }

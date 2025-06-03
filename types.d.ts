@@ -9,11 +9,11 @@ export interface PorkbunClientOptions {
     apiKey: string; 
     /** Secret key used for authentication. */
     secretKey: string;
-    /** Base api endpoint used by the wrapper. @default {"https://api.porkbun.com/api/json/v3"} */
+    /** Base api endpoint used by the wrapper. @default "https://api.porkbun.com/api/json/v3" */
     endpoint?: string;
     /** Logger that takes in the requests made by the client. Does not include api keys. */
     queryLogger?: (query: { url: string, body: Object }) => void; 
-    /** User-Agent header sent with the requests. Set to null to send the default (usually "node") Node.js User-Agent header. @default {"porkbun-wrapper"} */
+    /** User-Agent header sent with the requests. Set to null to send the default (usually "node") Node.js User-Agent header. @default "porkbun-wrapper" */
     userAgent?: string;
 }
 
